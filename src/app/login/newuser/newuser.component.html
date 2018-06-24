@@ -1,0 +1,74 @@
+<div class="container">
+  <table class="table">
+    <tr>
+      <td>
+        <h1>
+          ADD-NEW-USER
+        </h1>
+      </td>
+    </tr>
+      <tr>
+        <td>Email-id</td>
+      </tr>
+      <tr>
+          <td>
+            <input type="text" class="form-control" [(ngModel)]='e_id'>
+          </td>
+      </tr>
+      <tr>
+          <td>password</td>
+        </tr>
+        <tr>
+            <td>
+              <input type="password" class="form-control" [(ngModel)]='e_pass'>
+            </td>
+        </tr>
+        <tr>
+            <td>user-name</td>
+          </tr>
+          <tr>
+              <td>
+                <input type="text" class="form-control" [(ngModel)]='u_name'>
+              </td>
+          </tr>
+          <tr>
+              <td>mobile-number</td>
+            </tr>
+            <tr>
+                <td>
+                  <input type="text" class="form-control" [(ngModel)]='m_no'>
+                </td>
+            </tr>
+            <tr>
+                <td>city</td>
+              </tr>
+              <tr>
+                  <td>
+                    <input type="text" class="form-control" [(ngModel)]='city'>
+                  </td>
+              </tr>
+              <tr>
+                  <td>gender</td>
+                </tr>
+                <tr>
+                    <td>
+                      <input type="text" class="form-control" [(ngModel)]='gender'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>address</td>
+                  </tr>
+                  <tr>
+                      <td>
+                        <input type="text" class="form-control" [(ngModel)]='address'>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button class="btn btn-primary form-control" (click)='onsignup()'>
+                          signup
+                      </button>
+                    </td>
+                  </tr>
+  </table>
+</div>

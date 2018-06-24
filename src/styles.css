@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files*/
+
+
+body
+{
+ /* background: -webkit-linear-gradient(#cc527a,#e8175d);
+ background-repeat: no-repeat; */
+
+  /* background-image: url('../src/assets/img/bugatti_chiron_side_view_blue_110214_3840x2160.jpg'); */
+}

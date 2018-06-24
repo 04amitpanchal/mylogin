@@ -1,0 +1,49 @@
+<div class="main">
+<div class="container" >
+  <table class="table" id="ltable" style="border: 10px solid #363636;font-weight: 700;border: radius 2rem;">
+    <tr style="text-align: center;">
+      <td style="background-color:#363636;color: #f00b57;font-size:30px;" >Log In Form</td>
+    </tr>
+    <tr>
+      <td style="color:#363636;font-size: 30px;font-weight: 700;">Email-id</td>
+    </tr>
+    <tr >
+      <td ><input  class='form-control '  type="email" id="ta" required placeholder="xyz@gmail.com" style="font-size:18px"  [(ngModel)]="e_id" >
+
+      </td>
+
+    </tr>
+    <tr>
+        <td style="color:#363636;font-size: 30px;font-weight: 700;">Password</td>
+      </tr>
+      <tr >
+        <td><input class='form-control' type="password" id="tb" required placeholder="password" style="font-size:18px"  [(ngModel)]="pass" ></td>
+      </tr>
+      <tr>
+        <button id="login" class="btn form-control" style="margin:10px;font-weight: 700;background-color: #363636;color:#e8175d;font-size: 20px;" (click)="onlogin()">Log-In
+          <span class="glyphicon glyphicon-login"></span>
+        </button>
+      </tr>
+      <tr >
+        <td>
+        <a  id="la" style="color:#363636;font-size: 20px" (click)='onnewuser()'> New-user?
+          <!-- <span class="glyphicon glyphicon-">
+
+          </span> -->
+        </a>
+      </td>
+
+      </tr>
+      <tr>
+          <td>
+              <a id="lb" style="color:#363636;font-size: 20px" (click)='onforgotpasasword()'> forgot-password?
+                <!-- <span class="glyphicon glyphicon-">
+
+                </span> -->
+              </a>
+            </td>
+      </tr>
+
+  </table>
+</div>
+</div>
