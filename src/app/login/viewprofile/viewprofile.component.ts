@@ -19,6 +19,7 @@ export class ViewprofileComponent implements OnInit {
   constructor(public _aroute:ActivatedRoute,private _route:Router,private _xyz:LoginService) { }
 
   ngOnInit() {
+
     //this.id=this._aroute.snapshot.params['id'];
     // alert(this.id);
 this.id=localStorage.getItem('id');
